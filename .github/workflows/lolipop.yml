@@ -2,7 +2,7 @@ name: lolipop
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   ftp-deploy:
     runs-on: ubuntu-latest
